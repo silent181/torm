@@ -1,0 +1,36 @@
+{
+  "name": "torm",
+  "version": "0.0.1",
+  "description": "A comprehensive admin CRUD page SDK ",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/react": "^18.0.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "typescript": "^4.5.3",
+    "vite": "^4.2.1"
+  },
+  "dependencies": {
+    "change-case": "^4.1.2",
+    "classnames": "^2.3.2",
+    "moment": "^2.29.4"
+  },
+  "peerDependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "ag-grid-community": "^29.0.0",
+    "ag-grid-react": "^29.0.0",
+    "antd": ">=4.24.7",
+    "rc-field-form": "^1.27.1",
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "repository": {
+    "url": "https://github.com/silent181/torm"
+  }
+}

@@ -1,0 +1,15 @@
+.ag-root-wrapper {
+  border: none !important;
+}
+
+.ag-root-wrapper .ag-header-row.ag-header-row-column {
+  background-color: #ebf5ff !important;
+}
+
+.ag-root-wrapper .ag-header {
+  border-bottom: none !important;
+}
+
+.ag-root-wrapper .ag-header-cell-text {
+  font-weight: normal !important;
+}
