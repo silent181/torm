@@ -1,4 +1,4 @@
-const PREFIX = 'bm-admin-model'
+const PREFIX = 'torm'
 
 export function getFullCls(suffix: string) {
   return `${PREFIX}-${suffix}`
