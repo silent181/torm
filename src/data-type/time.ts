@@ -1,6 +1,7 @@
 import { DatePicker } from 'antd'
 import { Moment } from 'moment'
 
+import { DataDef, PresetData } from '../types'
 import { timeUtil } from '../utils'
 import BaseDataType, { Behaviors } from './base'
 import TimeHelper from './utils/TimeHelper'
@@ -8,8 +9,8 @@ import TimeHelper from './utils/TimeHelper'
 export default class TimeType extends BaseDataType implements Behaviors {
   helper: TimeHelper
 
-  constructor(props) {
-    super(props)
+  constructor(def: DataDef, presetData?: PresetData) {
+    super(def, presetData)
     this.helper = new TimeHelper(this)
   }
 
