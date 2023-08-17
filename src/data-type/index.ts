@@ -6,7 +6,7 @@ import LongString from './long-string'
 import NumberType from './number'
 import StringType from './string'
 import TimeType from './time'
-import TimeRangeype from './timeRange'
+import TimeRangeype from './time-range'
 import TreeType from './tree'
 
 export { default as BaseDataType, type Behaviors } from './base'
