@@ -2,6 +2,42 @@
 
 A comprehensive admin CRUD page SDK which Integrates frequently used "table" and "form" APIs
 
+# Preview
+
+![](https://s3.bmp.ovh/imgs/2023/10/12/b694da61e0ad8a65.gif)
+
+# 与Ant Design Pro / Table的联系
+
+[ProTable](https://procomponents.ant.design/components/table)是蚂蚁集团Ant Design团队所开发与维护的一个React表格组件，本项目与其有一些相似之处
+
+## 相同点
+
+都是为了解决项目中需要手写大量table的模板代码问题，对一些相似的逻辑进行了封装
+
+
+
+## 特性
+
+### ProTable
+
+- 对业务场景的支持较广泛（各种复杂的表格）
+
+
+
+### Torm
+
+- 支持的业务场景较少（最常见的表格增删改查），保证开发者只写最少的业务代码（如add、delete、update都可实现几乎0模板代码）
+
+- 对popup form进行了封装，对常用数据结构（树、时间、枚举等）实现了三层转换：服务端数据 -> 表格，服务端数据 -> 表单，表单 -> 服务端
+
+- 底层table实现原理不同，ag-grid有更丰富的api，可扩展性更强
+
+- 提供一些常用hooks， 如usePopup
+
+- 提供常用的组件，如FormModal、DynamicItem等
+
+
+
 # Usage
 
 ```bash
